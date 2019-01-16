@@ -4,7 +4,8 @@
 
 require 'wikidata/fetcher'
 
-members = WikiData::Category.new('Category:Members of the National Assembly (Bhutan)', 'en').member_titles
+members = WikiData::Category.new('Category:Bhutanese MNAs 2008–13', 'en').member_titles
+members = WikiData::Category.new('Category:Bhutanese MNAs 2013–18', 'en').member_titles
 premiers = WikiData::Category.new('Category:Prime Ministers of Bhutan', 'en').member_titles
 ministers = WikiData::Category.new('Category:Government ministers of Bhutan', 'en').member_titles
 
